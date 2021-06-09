@@ -1,0 +1,13 @@
+[all]
+web01
+web02
+db01
+db02
+
+[webservers]
+web01
+web02
+
+[databases]
+db[01:02]
+#db02

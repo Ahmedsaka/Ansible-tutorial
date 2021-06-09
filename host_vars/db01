@@ -1,0 +1,3 @@
+#host varibles for db01 system
+---
+become_ask_pass: True
