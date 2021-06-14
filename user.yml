@@ -1,0 +1,10 @@
+- name: Creating using ansible loops
+  hosts: databases
+  become: true
+
+  tasks:
+  - name: Creating Test user
+    user:
+      name: "{{ item }}"
+      state: present
+    loop: "{{ db_users }}"
